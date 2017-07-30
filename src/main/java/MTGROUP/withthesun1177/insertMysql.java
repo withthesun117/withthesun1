@@ -15,7 +15,7 @@ public class insertMysql{
             System.out.println("Table economic　の timeカラムにinsert出来ました。");
             // ステートメントをクローズ
             stmt.close();
-            // 接続をクローズa
+            // 接続をクローズ
             con.close();
         }
         catch (Exception e) {
